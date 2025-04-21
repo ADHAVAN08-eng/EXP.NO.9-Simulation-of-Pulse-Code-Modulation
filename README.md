@@ -16,7 +16,6 @@ Convert the quantized levels to binary representations (this is the encoding ste
 (Optional for visualization) Simulate a basic reconstruction by plotting the quantized levels as a step function.
 
 # PROGRAM
-import matplotlib.pyplot as plt
 import numpy as np
 
 sampling_rate = 5000
@@ -68,9 +67,9 @@ plt.grid(True)
 
 plt.tight_layout()
 plt.show()
-
 # OUTPUT
- ![image](https://github.com/user-attachments/assets/8b3a4a23-c9e7-4e47-9375-b7af288595e9)
+![image](https://github.com/user-attachments/assets/78ec4fa7-2e7d-4108-9a20-266aaef11c77)
+
 
 # RESULT / CONCLUSIONS
 Pulse Code Modulation (PCM) converts analog signals into digital form by sampling and quantizing the signal. The result is a series of pulses that represent the digitized version of the original signal, widely used in audio and telecommunications.
